@@ -1,0 +1,46 @@
+.bottom-icon {
+	color:rgb(45, 45, 45); 
+	margin-top: 10px;
+}
+		
+.nav-tabs {
+	text-align: center;
+	height: 25px;
+	line-height:25px;
+}
+		
+.navbar-bottom {
+	background-color: #f5f5f5; 
+	border-top: 3px solid #e5e5e5;
+}
+
+
+.plus-icon {
+	font-size: 55px;
+	z-index:999;
+	position:fixed; 
+	bottom: 8%;
+	left: 43%;
+}	
+
+#dig {
+	margin-top: 6px;
+}
+
+.navi-font {
+	color: #000000;
+}
+
+.navi-font:hover {
+	color: #0099cc;
+	text-decoration: none;
+}
+
+.dropdown-menu {
+	min-width:100%;
+	left: -25%;
+}
+
+.glyphicon:hover {
+	color:#0099cc;
+}

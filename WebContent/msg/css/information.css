@@ -1,0 +1,61 @@
+.header #erase{
+    float: right;
+    line-height: 45px;
+}
+.header #inform{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.content{
+    margin-top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.content .content-new{
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+[data-link] {
+    cursor: pointer;
+  }
+  
+
+.content .content-new img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+.content .content-new .content-new-time{
+    float:right;
+    font-size:1em;
+    color: #55555555;
+    line-height:25px;
+    margin-right: 5px;
+}
+
+.content .content-new .content-new-nickname{
+    height:25px;
+    font-size: 1.3em;
+    line-height: 25px;
+    padding-bottom:5px;
+}
+
+.content .content-new .content-new-unread{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.content .content-new .content-new-last{
+    font-size: 1em;
+    color: #9E9E9E;
+}

@@ -1,0 +1,16 @@
+.back-button {
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	line-height: 45px;
+	float:left;
+}
+
+.navbar-top {
+	background-color: #0099cc;
+	border-bottom: 3px solid #0282b4;
+}
+
+.navbar-toggle {
+	background-color: #ffffff;
+}
+

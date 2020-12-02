@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+li {
+    list-style: none;
+}
+
+.time {
+    text-align: center;
+    font-size: 0.24rem;
+    margin: 0.25rem 0;
+    font-weight: 500;
+}
+
+.content {
+    background: #EBEBEB;
+    padding: 0.2rem;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding-bottom: 0.8rem
+}
+
+span {
+    word-wrap: break-word;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.pop__chat-msg-me {
+    display: flex;
+    margin-bottom: .36rem
+}
+
+.pop__chat-msg-me2 {
+    display: flex;
+    margin-bottom: .36rem
+}
+
+.pop__chat-msg-content {
+    width: 6.29rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pop__chat-msg-content2 {
+    width: 6.29rem;
+}
+
+.pop__chat-msg-content .pop__chat-msg-msg {
+    float: right;
+    background-color:#0099cc;
+    border-color:#0099cc;
+}
+
+/* .pop__chat-msg-content .pop__chat-msg-msg1 {
+    float: right;
+    background-color: #88cdda;
+    border-color: #88cdda;
+} */
+
+.pop__chat-msg-msg {
+    background-color:#0099cc;
+    border-color:#0099cc;
+    border-style: solid;
+    border-width: 0.02rem;
+    border-radius: .07rem;
+    color: #333;
+    float: left;
+    font-size: .3rem;
+    margin: 0 .2rem;
+    padding: 0.15rem .2rem;
+    max-width: 4.5rem;
+    position: relative;
+    color: #fff;
+}
+
+.pop__chat-msg-msg1 {
+    /* background-color: #fff;
+    border-color: #fff;
+    border-style: solid; */
+    border-width: 1px;
+    border-radius: .07rem;
+    color: #333;
+    float: left;
+    font-size: .3rem;
+    margin: 0 .2rem;
+    /* padding: .15rem .2rem; */
+    max-width: 2rem;
+    position: relative;
+}
+
+.pop__chat-msg-msg2 {
+    background-color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: .07rem;
+    color: #333;
+    float: left;
+    font-size: .3rem;
+    margin: 0 .2rem;
+    padding: .15rem .2rem;
+    max-width: 4.5rem;
+    position: relative;
+}
+
+.pop__chat-msg-msg22 {
+    /* background-color: #fff;
+    border-color: #fff;
+    border-style: solid; */
+    border-width: 1px;
+    border-radius: .07rem;
+    /* color: #333; */
+    float: left;
+    font-size: .3rem;
+    margin: 0 .2rem;
+    max-width: 2rem;
+    position: relative;
+}
+
+.pop__chat-msg-avatar {
+    display: block;
+    overflow: hidden;
+    height: .85rem;
+    width: .85rem;
+    border-radius: 0.06rem;
+}
+
+.pop__clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.pop__chat-msg-content .pop__chat-msg-msg:before {
+    background: inherit;
+    border-color: inherit;
+    right: -.11rem;
+    transform: translate(0, -50%) rotate(45deg);
+}
+
+.pop__chat-msg-content .pop__chat-msg-msg:before {
+    content: '';
+    display: inline-block;
+    border-style: solid;
+    border-width: .01rem .01rem 0 0;
+    height: .2rem;
+    width: .2rem;
+    position: absolute;
+    top: .3rem;
+}
+
+.pop__chat-msg-msg2:before {
+    background: inherit;
+    border-color: inherit;
+    left: -0.11rem;
+    transform: translate(0, -50%) rotate(45deg);
+}
+
+.pop__chat-msg-msg2:before {
+    content: '';
+    display: inline-block;
+    border-style: solid;
+    border-width: .01rem .01rem 0 0;
+    height: .2rem;
+    width: .2rem;
+    position: absolute;
+    top: .3rem;
+}
+
+/*  */
+
+.pop__chat-msg-content .pop__chat-msg-msg1:before {
+    background: inherit;
+    border-color: inherit;
+    right: -.11rem;
+    transform: translate(0, -50%) rotate(45deg);
+}
+
+/* .pop__chat-msg-content .pop__chat-msg-msg1:before {
+    content: '';
+    display: inline-block;
+    border-style: solid;
+    border-width: .01rem .01rem 0 0;
+    height: .2rem;
+    width: .2rem;
+    position: absolute;
+    top: .3rem;
+} */
+
+/* .pop__chat-msg-msg22:before {
+    background: inherit;
+    border-color: inherit;
+    left: -0.11rem;
+    transform: translate(0, -50%) rotate(45deg);
+}
+
+.pop__chat-msg-msg22:before {
+    content: '';
+    display: inline-block;
+    border-style: solid;
+    border-width: .01rem .01rem 0 0;
+    height: .2rem;
+    width: .2rem;
+    position: absolute;
+    top: .3rem;
+} */
+
+/*  */
+
+.Bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #f7f7f7;
+    box-shadow: 0px 0px 0.3rem 0px rgba(245, 245, 245, 0.25);
+    /* display: flex; */
+    border-top: 1px solid rgb(228, 228, 228);
+    padding: 0.31rem 0 0;
+}
+
+.Bottom button {
+    width: 0.52rem;
+    height: 0.52rem;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin: 0 0.14rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+/* .expression {
+    background-image: url(../Image/b.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
+
+.file {
+    background-image: url(../images/s.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sendout {
+    width: 1rem !important;
+    height: 0.6rem !important;
+    border-radius: 0.1rem !important;
+    line-height: 0.65rem;
+    padding: 0 0.24rem;
+    font-size: 0.24rem;
+    font-weight: 500;
+    background: #0BA198;
+    color: #fff;
+}
+
+.Bottom input {
+    width: 63%;
+    height: 0.76rem;
+    display: flex;
+    align-self: center;
+    border: none;
+    border-radius: 0.1rem;
+    outline: none;
+    font-size: 0.32rem;
+    padding-left: 0.1rem;
+    word-wrap: break-word;
+}
+
+.Bottom textarea {
+    width: 64%;
+    height: 0.56rem;
+    display: flex;
+    align-self: center;
+    border: none;
+    border-radius: 0.1rem;
+    outline: none;
+    font-size: 0.32rem;
+    padding-left: 0.1rem;
+    word-wrap: break-word;
+    padding-top: 0.1rem;
+    resize: none;
+}
+
+.Press {
+    width: 65% !important;
+    height: 0.76rem !important;
+    border-radius: 0.1rem !important;
+    background: #fff !important;
+    padding: 0.16rem 1.75rem !important;
+    font-size: 0.32rem !important;
+    text-align: center !important;
+    font-weight: 500;
+    margin: 0 !important;
+}
+
+.Press:active {
+    background: #EBEBEB!important;
+}
+
+.state {
+    display: flex;
+    padding-bottom: 0.31rem;
+}
+
+.express {
+    transition: all 2s;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 0.2rem 0.1rem 0;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
