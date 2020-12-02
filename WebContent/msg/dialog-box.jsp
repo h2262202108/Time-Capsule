@@ -31,6 +31,7 @@
         </div>
         <p id="nickname">昵称</p>
     </header>
+    <div>你好</div>
     <div id="Customer">
         <div class="population" :style="{width: screenWidth + 'px',height: screenHeight + 'px' }">
             <div class="content" id="MyCenter" @click="back"
