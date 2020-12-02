@@ -39,6 +39,7 @@
 						<div>首页</div>
 					</a>
 				</div>
+				<div>俺寻思</div>
 
 				<div class="bottom-nav col-xs-3" onclick="switchShovel()">
 					<a href="#" class="navi-font">
