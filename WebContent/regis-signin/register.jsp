@@ -25,7 +25,7 @@
 		
 	</head>
 	<body>
-		<form name="regis" onsubmit="return pwdCheck()" method="post" action="writeUserInfo.jsp" target="_blank">
+		<form name="regis" onsubmit="return pwdCheck()" method="post" action="writeUserInfo.jsp" target="_self">
 			<br />
 			<div>
 				<img src="images/shou.jpg" id="touxiang" alt="别看了图片崩了" class="img-circle img-responsive center-block">
@@ -82,8 +82,8 @@
 					<div class="col-xs-2"></div>
 					<div class="col-xs-8">
 						<select class="form-control" name="sex">
-							<option>男</option>
-							<option>女</option>
+							<option value="男">男</option>
+							<option value="女">女</option>
 						</select>
 					</div>
 					<div class="col-xs-2"></div>
