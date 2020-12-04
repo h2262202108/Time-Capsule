@@ -47,7 +47,7 @@
 			</div>
 			
 			<div>
-				<input type="email" name="username" class="form-control" placeholder="请输入邮箱" required autofocus>
+				<input type="email" name="email" class="form-control" placeholder="请输入邮箱" required autofocus>
 				<input type="password" name="password" class="form-control" placeholder="请输入密码" required>
 			</div>
 			
