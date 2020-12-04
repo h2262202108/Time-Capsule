@@ -221,7 +221,6 @@ body {
 	font-size: 17px;
 	line-height: 21px;
 	color: #000;
-	background-color: #ffdfff;
 	-webkit-overflow-scrolling: touch
 }
 
@@ -1793,7 +1792,7 @@ input[type=submit]:enabled:active {
 	padding-left: 0;
 	list-style: none;
 	border-radius: 15px;
-	background-color: #494a5f
+	background-color: #e5eaee;
 }
 
 .mui-table-view:after {
@@ -1805,7 +1804,7 @@ input[type=submit]:enabled:active {
 	content: '';
 	-webkit-transform: scaleY(.5);
 	transform: scaleY(.5);
-	background-color: #494a5f
+	background-color: #e5eaee;
 }
 
 .mui-table-view:before {
@@ -1816,7 +1815,7 @@ input[type=submit]:enabled:active {
 	content: '';
 	-webkit-transform: scaleY(.5);
 	transform: scaleY(.5);
-	background-color: #494a5f;
+	background-color: #e5eaee;
 	top: -1px
 }
 

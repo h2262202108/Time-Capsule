@@ -17,7 +17,7 @@
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" 
 					data-target="#example-navbar-collapse" style="height:31px;">
-						<span class="glyphicon glyphicon-th-list" style="color: rgb(255, 255, 255);"></span>
+						<span class="glyphicon glyphicon-th-list" style="color: #0099cc;font-size:15px;"></span>
 					</button>
 				</div>
 			</div>

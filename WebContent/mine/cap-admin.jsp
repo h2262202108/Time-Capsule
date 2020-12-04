@@ -7,7 +7,6 @@
 		<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/upper-navi.css">
 		<link rel="stylesheet" type="text/css" href="css/demo.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="dist/sortable.min.css">
@@ -30,13 +29,6 @@
 		<title>胶囊管理界面</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top">
-			<div class="container-fluid">
-				<a href="../home/home.jsp"><span class="glyphicon glyphicon-menu-left back-button"></span></a>
-			</div>
-		</nav>
-		<br>
-
 		<main class="sortable">
 		<div class="container">
 		<div class="wrapper">

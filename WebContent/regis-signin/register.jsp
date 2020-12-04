@@ -25,14 +25,7 @@
 		
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top navbar-top">
-			<div class="container-fluid">
-				<a href="sign-in.jsp"><span class="glyphicon glyphicon-menu-left back-button"></span></a>
-			</div>
-		</nav>
-		<br />
-		<br />
-		<form name="regis" onsubmit="return pwdCheck()" method="post" action="#" target="_blank">
+		<form name="regis" onsubmit="return pwdCheck()" method="post" action="writeUserInfo.jsp" target="_blank">
 			<br />
 			<div>
 				<img src="images/shou.jpg" id="touxiang" alt="别看了图片崩了" class="img-circle img-responsive center-block">
@@ -43,7 +36,7 @@
 			<div class="row">
 				<div class="col-xs-2"></div>
 				<div class="col-xs-8">
-					<input type="text" id="input-email" class="form-control form-group" placeholder="请设置注册邮箱" required autofocus />
+					<input type="text" name="email" id="input-email" class="form-control form-group" placeholder="请设置注册邮箱" required autofocus />
 				</div>
 				<div class="col-xs-2"></div>
 			</div>
@@ -51,7 +44,7 @@
 			<div class="row">
 				<div class="col-xs-2"></div>
 				<div class="col-xs-8">
-					<input type="text" id="user-name" class="form-control form-group" placeholder="请设置您的用户名" />
+					<input type="text" name="username" id="user-name" class="form-control form-group" placeholder="请设置您的用户名" />
 				</div>
 				<div class="col-xs-2"></div>
 			</div>
@@ -59,7 +52,7 @@
 			<div class="row">
 				<div class="col-xs-2"></div>
 				<div class="col-xs-8">
-					<input type="password" id="pwd1" class="form-control" placeholder="请设置您的密码" />
+					<input type="password" name="password" id="pwd1" class="form-control" placeholder="请设置您的密码" />
 				</div>
 				<div class="col-xs-2"></div>
 			</div>
