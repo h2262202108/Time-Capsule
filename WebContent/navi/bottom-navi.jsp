@@ -47,6 +47,7 @@
 					</a>
 				</div>
 				<div>俺寻思</div>
+				<div>俺寻思</div>
 
 				<div class="bottom-nav col-xs-3" onclick="restoreShovel()">
 					<a href="../msg/information.jsp" class="navi-font"><span class="glyphicon glyphicon-envelope bottom-icon"></span>
