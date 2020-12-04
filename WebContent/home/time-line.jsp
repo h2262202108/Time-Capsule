@@ -9,7 +9,6 @@
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/timeLine.css" />
-	<link rel="stylesheet" type="text/css" href="../css/upper-navi.css" />
 	<script type="text/javascript" src="js/timeLine.js"></script>
 	<script type="text/javascript">
 	    $(document).ready(function () {
@@ -30,12 +29,6 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-fixed-top navbar-top">
-			<div class="container-fluid">
-				<a href="home.jsp"><span class="glyphicon glyphicon-menu-left back-button"></span></a>
-			</div>
-		</nav>
-		<br/><br/>
         <div class="row">
             <div class="col-md-12">
                 <div class="VivaTimeline">
