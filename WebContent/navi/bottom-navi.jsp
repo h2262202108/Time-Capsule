@@ -58,6 +58,12 @@
 						<div>我的</div>
 					</a>
 				</div>
+				
+				<div class="bottom-nav col-xs-3" onclick="restoreShovel()">
+					<a href="#" class="navi-font"><span class="glyphicon glyphicon-user bottom-icon"></span>
+						<div>我的</div>
+					</a>
+				</div>
 			</div>
 		</nav>
 	</body>
